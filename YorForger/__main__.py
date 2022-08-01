@@ -84,13 +84,13 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph//file/b3aedf8d65276f8241556.jpg"
+HELP_IMG = "https://telegra.ph/file/722360600db334bdb7bd0.jpg"
 HELP_MSG = "Click the button below to get help menu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
-START_IMG = "https://telegra.ph/file/5ed8d6ab91ea9b9eaaad0.jpg"
+START_IMG = "https://telegra.ph/file/ac2b3a7d87ef37e44d40d.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/a15eb346fec9a0b1b2696.mp4) 」────
+────「 [{}](https://telegra.ph/file/9470a9116901fbeb50482.mp4) 」────
 Heyyo `{}`,  here to help,
 *I am an Anime themed advance group management bot with a lot of awesome Features*
 ┏━━━━━━━━━━━━━━━━━━━━
