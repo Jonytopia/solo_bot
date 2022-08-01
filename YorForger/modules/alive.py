@@ -7,11 +7,11 @@ from telegram.ext import (
     CommandHandler,
 )
 
-PHOTO = "https://te.legra.ph/file/d278826d0f59ed9c00341.mp4"
+PHOTO = "https://telegra.ph/file/99829b67f239007a33287.jpg"
 
 
 def alive(update: Update, context: CallbackContext):
-    TEXT = "Hi **{}**[,](https://te.legra.ph/file/d278826d0f59ed9c00341.mp4) I Am **Yor Forger**!\n\n◈I'm working properly! \n\n◈My Darling - **[AUGSTUN 🝪 𝕮UᏒᏕɆĐ](https://t.me/Aug0felix)**\n\n◈Thanks For Using Me Here◈"
+    TEXT = "Hi **{}**[,](https://telegra.ph/file/4d8263c4c00626572f048.jpg) I Am **solo¥**!\n\n◈I'm working properly! \n\n◈My MASTER - **[jonytopia ](https://t.me/dark_x_star)**\n\n◈Thanks For Using Me Here◈"
 
     first_name = update.effective_user.first_name
 
