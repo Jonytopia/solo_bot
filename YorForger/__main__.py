@@ -84,13 +84,13 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/722360600db334bdb7bd0.jpg"
+HELP_IMG = "https://telegra.ph/file/9fce0d7edb91c885b1512.jpg"
 HELP_MSG = "Click the button below to get help menu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/ac2b3a7d87ef37e44d40d.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9470a9116901fbeb50482.mp4) 」────
+────「 [{}](https://telegra.ph/file/d4c4471cdd938a12f84eb.mp4) 」────
 Heyyo `{}`,  here to help,
 *I am an Anime themed advance group management bot with a lot of awesome Features*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -109,13 +109,13 @@ Haven't slept since: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text="💖 ADD ME IN YOUR GROUP",url="http://t.me/Yor_forger_spyxfamily_bot?startgroup=true"),
+            text="💖 ADD ME IN YOUR GROUP",url="http://t.me/jonytopia_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="⚙️ Support", url=f"https://t.me/Komisansupport"),                    
+            text="⚙️ Support", url=f"https://t.me/Void_HeadQuarters"),                    
         InlineKeyboardButton(
-            text="Updates",  url=f"https://t.me/yorforgerbotupdates"
+            text="Updates",  url=f"https://t.me/solo_bot_update"
         ),
     ],
     [
@@ -125,7 +125,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Wallpaper Channel", url=f"https://t.me/animengameswall"),                    
+            text="AMV Channel", url=f"https://t.me/solo_AMV_edit"),                    
     ],
     
 ]
@@ -260,7 +260,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
                 update.effective_message.reply_photo(
-            START_IMG, caption="<b>Hello, I'm Yor Forger!\nI'm Working Properly.</b>\nI am alive since: <code>{}</code>".format(
+            START_IMG, caption="<b>Hello, I'm solo¥!\nI'm Working Properly.</b>\nI am alive since: <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -268,16 +268,16 @@ def start(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Owner", url="https://t.me/Aug0felix")
+                  InlineKeyboardButton(text="Owner", url="https://t.me/dark_x_star")
                   ],
                   [
-                  InlineKeyboardButton(text="Manager", url="https://t.me/Sneha_UwU_OwO")
+                  InlineKeyboardButton(text="Manager", url="https://t.me/Mr_back_nack")
                   ],
                   [
-                  InlineKeyboardButton(text="❤Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/Komisansupport")
+                  InlineKeyboardButton(text="❤Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/void_headquarters")
                   ],
                   [
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/yorforgerbotupdates")
+                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/solo_not_update")
                   ]
                 ]
             ),
