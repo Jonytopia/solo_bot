@@ -271,13 +271,13 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Owner", url="https://t.me/dark_x_star")
                   ],
                   [
-                  InlineKeyboardButton(text="Manager", url="https://t.me/Mr_back_nack")
+                  InlineKeyboardButton(text="Manager", url="https://t.me/Mr_nack_nack")
                   ],
                   [
                   InlineKeyboardButton(text="❤Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/void_headquarters")
                   ],
                   [
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/solo_not_update")
+                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/solo_bot_update")
                   ]
                 ]
             ),
